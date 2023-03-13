@@ -38,7 +38,24 @@
     </div>
 </div>
 @yield('content')
+<div class="footer">
+    <div class="container">
+        <div class="footer-box">
+        <div class="footer-logo">
+            <img src="{{asset('img/img_1.png')}}" alt="">
+        </div>
+        <div class="footer-right">
+            <p>
+                Выполнил: Рузметов Жалоладдин
+            </p>
+            <p>
+                тел +99897 510 36 44
+            </p>
+        </div>
+        </div>
 
+    </div>
+</div>
 @stack('scripts')
 </body>
 </html>
