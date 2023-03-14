@@ -5,15 +5,21 @@
 
     <div class="index_box">
         <div class="index_content_box">
-            <h4>
+            <div class="title-content">
                 Стажировка это круто
-            </h4>
+            </div>
             <ul>
                 <li>- работа в команде</li>
                 <li>- реальные проекты</li>
                 <li>- оплачиваемая стажировка</li>
                 <li>- перспективная отрасль</li>
             </ul>
+            <a href="#" class="index-send_button">
+                ПОДРОБНЕЕ
+            </a>
+        </div>
+        <div class="index_image">
+            <img src="{{asset('img/img_2.png')}}" alt="">
         </div>
     </div>
 
@@ -25,7 +31,7 @@
         <div class="footer_menu">
             <p>Программист</p>
             <div class="img">
-                <img src="icon.png" alt="there is img"
+                <img src="{{asset('img/img_3.png')}}" alt="there is img"
                      type="png"
                 />
             </div>
@@ -37,7 +43,7 @@
         <div class="footer_menu">
             <p>Программист</p>
             <div class="img">
-                <img src="icon.png" alt="there is img"
+                <img src="{{asset('img/img_4.png')}}" alt="there is img"
                      type="png"
                 />
             </div>
@@ -48,7 +54,7 @@
         <div class="footer_menu">
             <p>Программист</p>
             <div class="img">
-                <img src="icon.png" alt="there is img"
+                <img src="{{asset('img/img_5.png')}}" alt="there is img"
                      type="png"
                 />
             </div>
@@ -59,7 +65,7 @@
         <div class="footer_menu">
             <p>Программист</p>
             <div class="img">
-                <img src="icon.png" alt="there is img"
+                <img src="{{asset('img/img_6.png')}}" alt="there is img"
                      type="png"
                 />
             </div>

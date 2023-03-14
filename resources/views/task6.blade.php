@@ -1,7 +1,7 @@
 @extends('app.layout')
 
 @section('content')
-
+<div class="container">
     <label for="city-input">Введите называния города:</label>
     <input type="text" id="city-input">
     <button id="weather-btn">Показат погоду</button>
@@ -14,6 +14,8 @@
         </form>
         <br>
         <div id="result-container"></div>
+</div>
+
     @push('scripts')
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script>
